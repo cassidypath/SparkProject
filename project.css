@@ -1,0 +1,174 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 0;
+    background: white; opacity: .8;
+    border-width: 100%;
+   
+}
+
+a {
+    text-decoration:underline;
+    color: black;
+}
+
+a:hover {
+        color: skyblue;
+        background-color: transparent;
+        text-decoration: none;
+}
+
+div > h4 {
+    font-size: 30px;
+    padding-right: 2em;
+    margin-top: 20px;
+    height: 10px;
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    cursor: pointer;
+    border: 3px solid grey;
+    padding-top: 0;
+    background: white; opacity: .9;
+    width: 100%;
+    
+}
+
+
+/* project */
+#home {
+    background: url('https://files.slack.com/files-pri/TCQ2SKM0R-FD58DBE78/carrers.jpg');
+    background-size: 100%, 100%;
+}
+
+#home > p {
+    background: white; opacity: .9;
+    text-align: center;
+    font-size: 40px;
+    padding: 10%;
+}
+
+
+/* // ProjectJobs */
+body {
+    margin: 0;
+    background: url('https://img.huffingtonpost.com/asset/59403ba11600002800115f4c.jpg?ops=scalefit_820_noupscale');
+    background-size: 100%,100%;
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+#top-container {
+    width: 100%;
+}
+
+#job-search {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0%;
+    height: 40px;
+    width: 40px;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 40px;
+    padding: 70px 0;
+    background: white; opacity: .8;
+    
+
+}
+
+#job-search {
+    width: 100%;
+}
+#job-search > input {
+    font-size: 30px;
+    text-align: center;
+    padding: 0px;
+}
+
+
+#search-by {
+    font-size: 35px;
+    padding-right: 30px;
+    padding-top: 0px;
+    font-weight: bold;      
+}
+
+#job-list {
+    background: white; opacity: .8;
+    flex-grow: 1;
+    overflow-x: hidden; 
+ }
+
+.jobTitles {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border: black;
+    background:white; 
+    
+}
+
+.job {
+    font-weight: bold;
+} 
+
+/* Form */
+#news {
+    background: url('https://res.cloudinary.com/jobcase/image/asset/f_auto,fl_preserve_transparency,q_auto/jobcase-logo-collage-3254a5c3f5e94a2eaa16ba794bc6bf8f.png'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 15px;
+    background-size: 60%, 70%;
+    background-color: bisque;
+}
+form {
+    /* background: blanchedalmond; */
+}
+
+form > h4 {
+    padding-top: 6.3%;
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+
+
+
+form > p {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+#submit-form-button{
+    margin-left: 49%;
+}
+
+.text-box-form{
+    margin-left: 5px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>So y'all broke broke</title>
+    <link type="text/css" href="project.css" rel="stylesheet">
+</head>
+
+<body id="projectJobs">
+    <div id="top-container">
+        <header>
+            <h1>Job Encyclopedia</h1>
+
+            <nav>
+
+
+                <div>
+                    <h4><a href="./project.html">Home</h4></a>
+                </div>
+                <div>
+                    <h4><a href="./projectJobs.html">Job Search</h4></a>
+                </div>
+                <div>
+                    <h4><a href="./projectSignUp.html">Weekly Newsletter</h4></a>
+                </div>
+
+            </nav>
+
+        </header>
+
+        <section id="job-search">
+            <div id="search-by">Search by job title:</div>
+
+
+            <div id="search-box"></div>
+            </select>
+
+            <input id="mySearch" type="Search">
+            <button id="search" onclick=GetFromUrl()>Search</button>
+
+        </section>
+    </div>
+    <br>
+    <br>
+    <div id="job-list">
+        <div class="jobTitles">
+            <p class="job">Results</p>
+            <div id="jobInfo" class="jobDescription" onclick="getjobDescriptionApiUrl(event)">
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="project.js"></script>
+
+</body>
+
+</html>
